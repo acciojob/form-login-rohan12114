@@ -2,8 +2,8 @@
 
 function getFormValue() {
   // Get the input values from the form
-  var firstName = document.getElementById("Rishabh").value;
-  var lastName = document.getElementById("Pant").value;
+  var firstName = document.getElementByName("Rishabh").value;
+  var lastName = document.getElementByName("Pant").value;
 
   // Alert the first and last name
   alert("First Name: " + firstName + "\nLast Name: " + lastName);
